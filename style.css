@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -97,3 +98,36 @@ body {
     color: #ffcc00;
     text-decoration: none;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+
+    .department-list, .facility-list {
+        flex-direction: column;
+    }
+
+    .department-item, .facility-item {
+        flex: 1 1 100%;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+    }
+} 
