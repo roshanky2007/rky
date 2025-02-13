@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chemistry Department - RKY College of Science</title>
+    <title>Chemistry Department - RKY College</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .video-box {
+            border: 4px solid #ffb703;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 30px auto;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background-color: #fb8500;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .video-box iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -23,9 +53,19 @@
     </header>
 
     <section class="hero">
-        <h2>Welcome to the Chemistry Department</h2>
-        <p>Exploring the molecular world through research, education, and innovation.</p>
+        <h2>Welcome to the Department of Chemistry</h2>
+        <p>Innovative research and quality education in the field of Chemistry.</p>
     </section>
+
+    <section class="about">
+        <h2>About the Chemistry Department</h2>
+        <p>The Department of Chemistry at RKY College offers state-of-the-art laboratories, experienced faculty, and a curriculum designed to foster scientific thinking and discovery. Our students engage in groundbreaking research that contributes to advancements in various chemical disciplines.</p>
+    </section>
+
+    <div class="video-box">
+        <h3><em>Only the best for your Chemistry Enthusiasts!</em></h3>
+        <iframe src="https://www.youtube.com/embed/gW028HRaKJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <section id="faculty" class="about">
         <h2>Faculty Information</h2>
