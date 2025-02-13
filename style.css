@@ -1,4 +1,3 @@
-/* Updated color palette and animations applied */
 
 :root {
   --primary-color: #606c38;
@@ -282,5 +281,3 @@ body {
       transform: translateX(10px);
       color: #bc6c25;
   }
-</style>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
