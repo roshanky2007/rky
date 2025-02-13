@@ -130,4 +130,42 @@ body {
     .cta-button {
         padding: 12px 25px;
     }
-} 
+}
+
+/* Additional Department Pages Styles */
+.department-page {
+    padding: 30px;
+}
+
+.department-page h2 {
+    color: #004d99;
+    margin-bottom: 20px;
+}
+
+.department-section {
+    margin-bottom: 30px;
+}
+
+.department-card {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.department-card h3 {
+    margin-top: 0;
+    color: #007acc;
+}
+
+/* Adjustments for better readability */
+.department-page .department-details {
+    line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+    .department-card {
+        padding: 15px;
+    }
+}
