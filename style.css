@@ -254,3 +254,28 @@ body {
         height: 40px;
     }
 }
+.method-item {
+    background: #fefae0; /* Light background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.method-item:hover {
+    transform: translateY(-10px); /* Moves the card up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: #f4e4c1; /* Slightly different background on hover */
+}
+
+.method-link {
+    color: inherit; /* Keeps text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+.method-link:hover {
+    color: #bc6c25; /* Elegant color change on hover */
+}
