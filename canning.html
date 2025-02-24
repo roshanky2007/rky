@@ -3,46 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canning - Food Preservation</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your existing CSS -->
+    <title>Food Preservation by Canning</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefae0;
+            color: #283618;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #606c38;
+            color: #fefae0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav li {
+            margin-left: 20px;
+        }
+
+        .nav a {
+            color: #fefae0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #dda15e;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #dda15e;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            background: #bc6c25;
+            color: #fefae0;
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .video-box {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background: #283618;
+            border-radius: 10px;
+            border: 3px solid #bc6c25;
+        }
+
+        .video-box iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #606c38;
+            color: #fefae0;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="logo">Food Preservation</div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Methods</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <h1>Food Preservation Techniques</h1>
         </div>
-    </header>
-    
-    <section class="tutorial">
-        <div class="container">
-            <h1>Canning: A Complete Guide</h1>
-            <p>Canning is a method of preserving food in airtight containers to extend its shelf life.</p>
-            
-            <h2>Types of Canning</h2>
+        <nav class="nav">
             <ul>
-                <li><strong>Water Bath Canning:</strong> Used for high-acid foods like fruits and pickles.</li>
-                <li><strong>Pressure Canning:</strong> Used for low-acid foods like meats and vegetables.</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            
-            <h2>Step-by-Step Guide</h2>
-            <ol>
-                <li>Prepare jars by sterilizing them.</li>
-                <li>Fill jars with food, leaving headspace.</li>
-                <li>Seal with lids and rings.</li>
-                <li>Process jars using a water bath or pressure canner.</li>
-                <li>Cool and store in a dark place.</li>
-            </ol>
-        </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Food Preservation by Canning</h2>
+        <p>Learn how canning helps extend food shelf life while maintaining safety and nutrition.</p>
     </section>
-    
+
+    <section class="section">
+        <h2>What is Canning?</h2>
+        <p>Canning is a preservation method that seals food in airtight containers to prevent spoilage. It kills microorganisms and prevents contamination.</p>
+    </section>
+
+    <section class="section">
+        <h2>Types of Canning</h2>
+        <p><strong>Water Bath Canning:</strong> Ideal for high-acid foods like fruits, jams, and pickles.</p>
+        <p><strong>Pressure Canning:</strong> Used for low-acid foods like meats, vegetables, and soups.</p>
+    </section>
+
+    <section class="section">
+        <h2>Steps in Canning</h2>
+        <ul>
+            <li>Filling Jars: Pack food into sterilized jars.</li>
+            <li>Sealing: Wipe rims and secure lids properly.</li>
+            <li>Processing: Use a boiling water bath or pressure canner.</li>
+            <li>Cooling & Storage: Allow jars to cool before storing.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Benefits of Canning</h2>
+        <ul>
+            <li>Preserves food for months or years.</li>
+            <li>Maintains taste and nutritional value.</li>
+            <li>Reduces food waste.</li>
+            <li>Provides additive-free homemade food options.</li>
+        </ul>
+    </section>
+
+    <div class="video-box">
+        <h3>Watch the Canning Process</h3>
+        <iframe src="https://www.youtube.com/embed/cApZNkfseWY" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <footer class="footer">
-        <p>&copy; 2025 Food Preservation Techniques</p>
+        <p>&copy; 2025 Food Preservation Techniques. All rights reserved.</p>
     </footer>
 </body>
 </html>
