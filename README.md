@@ -17,7 +17,15 @@ This project is a website dedicated to providing information on various **food p
 
 ## File Structure
 
-rky/ │── canning.html # Canning preservation guide │── dehydration.html # Dehydration preservation guide │── fermentation.html # Fermentation preservation guide │── freezing.html # Freezing preservation guide │── salting.html # Salting preservation guide │── index.html # Homepage of the website │── style.css # Styling file for the website │── README.md # Project documentation
+/rky  
+│── canning.html  
+│── dehydration.html  
+│── fermentation.html  
+│── freezing.html  
+│── salting.html  
+│── index.html  
+│── style.css  
+│── README.md
 
 ## How to Use
 1. Clone the repository:
